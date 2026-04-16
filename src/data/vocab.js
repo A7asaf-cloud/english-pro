@@ -1,0 +1,30 @@
+export const VOCAB_CARDS = [
+  // Tech
+  { id: 1,  word: 'Scalability',   category: 'tech',     he: 'יכולת התרחבות',     def: 'The ability of a system to handle increased load',                              example: 'We need to think about scalability before launch.' },
+  { id: 2,  word: 'Bottleneck',    category: 'tech',     he: 'צוואר בקבוק',        def: 'A point that slows down the whole process',                                    example: 'The DB queries are the bottleneck in our pipeline.' },
+  { id: 3,  word: 'Iterate',       category: 'tech',     he: 'לחזור ולשפר',        def: 'To repeat a process, improving each time',                                     example: 'We\'ll iterate on the design after user feedback.' },
+  { id: 4,  word: 'Refactoring',   category: 'tech',     he: 'שיפוץ קוד',          def: 'Restructuring code without changing its behavior',                             example: 'We scheduled a week for refactoring the auth module.' },
+  { id: 5,  word: 'Deploy',        category: 'tech',     he: 'לפרוס / להעלות',     def: 'To release software to a production environment',                              example: 'We deploy to production every Friday afternoon.' },
+  { id: 6,  word: 'Latency',       category: 'tech',     he: 'השהייה',             def: 'Delay in data transfer or system response',                                    example: 'High latency is causing a poor user experience.' },
+  { id: 7,  word: 'Robust',        category: 'tech',     he: 'חסון / עמיד',        def: 'Strong and reliable under various conditions',                                 example: 'We need a more robust error-handling strategy.' },
+  { id: 8,  word: 'Agile',         category: 'tech',     he: 'אג\'ייל / זריז',     def: 'Iterative development methodology',                                            example: 'Our team works in Agile with two-week sprints.' },
+  { id: 9,  word: 'Throughput',    category: 'tech',     he: 'תפוקה',             def: 'Amount of data processed in a given time',                                     example: 'We improved throughput by 40% with the new architecture.' },
+  { id: 10, word: 'Deprecate',     category: 'tech',     he: 'להפסיק תמיכה',       def: 'To phase out a feature or API version',                                        example: 'The v1 API will be deprecated in Q3.' },
+  // Business
+  { id: 11, word: 'Stakeholder',   category: 'business', he: 'בעל עניין',          def: 'Anyone with an interest in a project\'s outcome',                              example: 'Let\'s align with all stakeholders before the sprint.' },
+  { id: 12, word: 'Bandwidth',     category: 'business', he: 'קיבולת / זמן פנוי', def: 'Capacity to take on work (figurative in meetings)',                             example: 'I don\'t have the bandwidth for another project.' },
+  { id: 13, word: 'Leverage',      category: 'business', he: 'למנף',              def: 'To use something to maximum advantage',                                         example: 'We can leverage our existing infrastructure for this.' },
+  { id: 14, word: 'Onboarding',    category: 'business', he: 'קליטה / הכשרה',      def: 'Process of integrating a new employee or user',                                example: 'The onboarding process takes about two weeks.' },
+  { id: 15, word: 'Synergy',       category: 'business', he: 'סינרגיה',           def: 'Cooperation that creates a greater combined effect',                            example: 'There\'s great synergy between product and engineering.' },
+  { id: 16, word: 'Pivot',         category: 'business', he: 'שינוי כיוון',        def: 'A fundamental change in strategy',                                             example: 'After the feedback, we decided to pivot our approach.' },
+  { id: 17, word: 'Feasibility',   category: 'business', he: 'ישימות',            def: 'The practicality of completing a plan',                                         example: 'Let\'s run a feasibility check before committing.' },
+  { id: 18, word: 'Escalate',      category: 'business', he: 'להסלים / להעביר למעלה', def: 'To bring an issue to a higher authority',                                  example: 'I\'ll need to escalate this to the VP level.' },
+  { id: 19, word: 'Deliverable',   category: 'business', he: 'תוצר / פלט',         def: 'A tangible output that must be produced by a deadline',                        example: 'The key deliverable for Q2 is the API redesign.' },
+  { id: 20, word: 'Alignment',     category: 'business', he: 'יישור קו / הסכמה',   def: 'Ensuring all parties share the same understanding and goals',                  example: 'We need alignment across all teams before launch.' },
+  // Meetings
+  { id: 21, word: 'Action item',   category: 'meetings', he: 'משימה לביצוע',       def: 'A specific task assigned during a meeting',                                    example: 'Action item: Asaf will send the report by Friday.' },
+  { id: 22, word: 'Sync',          category: 'meetings', he: 'פגישת יישור קו',     def: 'A short meeting to exchange updates and align (short for synchronize)',         example: 'Let\'s have a quick sync tomorrow at 10.' },
+  { id: 23, word: 'Blocker',       category: 'meetings', he: 'חסם / מניעה',        def: 'Anything preventing progress on a task',                                       example: 'My blocker is that I\'m still waiting on design approval.' },
+  { id: 24, word: 'Capacity',      category: 'meetings', he: 'כושר / יכולת',       def: 'The team\'s available work hours in a sprint',                                 example: 'We have 60% capacity this sprint due to vacations.' },
+  { id: 25, word: 'Velocity',      category: 'meetings', he: 'מהירות / קצב',       def: 'Speed at which a team completes work (Agile metric)',                          example: 'Our velocity increased after the process change.' },
+]
